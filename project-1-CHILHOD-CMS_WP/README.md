@@ -10,7 +10,7 @@
 - functions(arg,parametrs)
  - styles
  - scripts
-## step-1 / 1й - этап
+## step-1 / 1й - этап (Работа с заголовком и с иконкой)
 - logo
   - actions
   - custom_logo_url
