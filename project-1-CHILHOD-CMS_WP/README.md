@@ -6,11 +6,17 @@
 - header.php
 - footer.php
 
-работаем с функциями и с хуками:
+## работаем с функциями и с хуками:
 - functions(arg,parametrs)
+ - styles
+ - scripts
+## step-1 / 1й - этап
 - logo
+  - actions
   - custom_logo_url
   - get_custom_logo()
   - bloginfo()
   svg->png
+
+## step-2 / 2й - этап
 
