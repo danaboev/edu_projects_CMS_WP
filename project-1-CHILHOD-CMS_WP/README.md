@@ -23,6 +23,19 @@
   - email
   - phone
   - address
+- about
+  - title
+  - subtitle
+  - descr
+  - img
+- team
+  - title
+  - img
+- aboutus
+  - title x3
+  - subtitle x3
+  - descr x3
+  - img x3
 - footer(info)
   - phone
   - address
