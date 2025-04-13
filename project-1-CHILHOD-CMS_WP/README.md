@@ -20,4 +20,9 @@
 
 ## step-2 / 2й - этап
 - header(info)
-- 
+  - email
+  - phone
+  - address
+- footer(info)
+  - phone
+  - address
