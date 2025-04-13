@@ -19,6 +19,8 @@
   svg->png
 
 ## step-2 / 2й - этап
+the_field();
+
 - header(info)
   - email
   - phone
