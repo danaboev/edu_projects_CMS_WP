@@ -19,4 +19,5 @@
   svg->png
 
 ## step-2 / 2й - этап
-
+- header(info)
+- 
