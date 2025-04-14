@@ -41,3 +41,5 @@ the_field();
 - footer(info)
   - phone
   - address
+  - 
+## Динамический посты
