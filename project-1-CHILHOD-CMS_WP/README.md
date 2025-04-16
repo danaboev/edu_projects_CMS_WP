@@ -19,7 +19,8 @@
   svg->png
 
 ## step-2 / 2й - этап
-the_field();
+* the_field();
+* get_filed();
 
 - header(info)
   - email
@@ -43,6 +44,8 @@ the_field();
   - address
   - 
 ## Динамический посты
+* get_posts();
+
 - slider
 - category
 - 
