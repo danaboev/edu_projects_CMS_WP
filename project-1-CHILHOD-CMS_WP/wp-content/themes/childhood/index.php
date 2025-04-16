@@ -4,9 +4,7 @@ get_header();
 		<div class="mainslider glide">
 			<div class="glide__track" data-glide-el="track">
 				<ul class="glide__slides">
-
 				<?php 
-				
 				// параметры по умолчанию
 					$my_posts = get_posts( array(
 						'numberposts' => -1,
@@ -16,7 +14,6 @@ get_header();
 						'post_type'   => 'post',
 						'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
 					) );
-
 					global $post;
 					foreach( $my_posts as $post ){
 						setup_postdata( $post );
@@ -25,7 +22,7 @@ get_header();
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-7 offset-1">
-									<h2 
+									<h2
 									style="
 									<?php
 										$field = get_field('slider_color');
