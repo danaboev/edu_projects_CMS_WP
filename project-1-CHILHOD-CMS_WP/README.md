@@ -43,3 +43,6 @@ the_field();
   - address
   - 
 ## Динамический посты
+- slider
+- category
+- 
