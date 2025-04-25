@@ -1,5 +1,5 @@
 # edu projects on CMS WordPress
-## project-1 
+## project-1  CHILHOD-CMS_WP
 
 Chilhood - Мир детсва- верстку настраиваем под WP т.е. посадка шаблона на WP
 Подробнее описано в проекте Chilhood - readme.md о сделанных работ. 
@@ -9,4 +9,5 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 
 
 
-## project-2 
+## project-2 TOPFORUM-CMS_WP
+
