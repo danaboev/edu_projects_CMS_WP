@@ -6,17 +6,20 @@ get_header();
 				<ul class="glide__slides">
 				<?php 
 				// параметры по умолчанию
-					$my_posts = get_posts( array(
-						'numberposts' => -1,
-						'category_name'    => 'slider', 
-						'orderby'     => 'date',
-						'order'       => 'ASC',
-						'post_type'   => 'post',
-						'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
-					) );
-					global $post;
-					foreach( $my_posts as $post ){
-						setup_postdata( $post );
+						$my_posts = get_posts( array(
+							'numberposts' => -1,
+							'category_ma,e'    => 'slider',
+							'orderby'     => 'date',
+							'order'       => 'ASC',
+							'post_type'   => 'post',
+							'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+						) );
+
+						global $post;
+
+						foreach( $my_posts as $post ){
+							setup_postdata( $post );
+
 							?>
 							<li style="background-image: url('<?php the_field('slider_img') ;?>')" class="glide__slide">
 						<div class="container">
@@ -36,7 +39,7 @@ get_header();
 									class="slider__title"><?php the_title();?></h2>
 									<?php
 										$field = get_field('slider_on');
-										if($field == 'white'){
+										if($field == 'on'){
 											?>
 											<a href="<?php the_field('slider_link')?>" class="button">Узнать больше</a>
 											<?php
@@ -56,10 +59,9 @@ get_header();
 							</button>
 						</div>
 						</li>
-					
-					<?php				
-					}
-					wp_reset_postdata(); // сброс
+							<?php
+						}
+
 					?>
 				</ul>
 			</div>
@@ -98,6 +100,38 @@ get_header();
 			<div class="container">
 				<h2 class="subtitle">Мягкие игрушки</h2>
 				<div class="toys__wrapper">
+
+				<?php 
+				// параметры по умолчанию
+					$my_posts = get_posts( array(
+						'numberposts' => -1,
+						'category_name'    => 'soft_toys', 
+						'orderby'     => 'date',
+						'order'       => 'ASC',
+						'post_type'   => 'post',
+						'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+					) );
+					global $post;
+					foreach( $my_posts as $post ){
+						setup_postdata( $post );
+							?>
+
+					<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url');?>/assets/img/toy_1.jpg)">
+						<div class="toys__item-info">
+							<div class="toys__item-title"><?php the_title();?></div>
+							<div class="toys__item-descr">
+								<?php the_field('toys_descr');?>                       
+							</div>
+							<div class="minibutton toys__trigger">Подробнее</div>
+						</div>
+					</div>
+
+					<?php				
+					}
+					wp_reset_postdata(); // сброс
+					?>
+					
+
 					<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url');?>/assets/img/toy_1.jpg)">
 						<div class="toys__item-info">
 							<div class="toys__item-title">Плюшевые медведи</div>
@@ -491,7 +525,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-
 <?php
+
 get_footer();
 ?>
