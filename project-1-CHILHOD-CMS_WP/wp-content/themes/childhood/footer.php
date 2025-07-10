@@ -107,8 +107,8 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-3">
-						<div class="footer__logo">
-						<?php the_custom_logo(  );?>
+						<div  class="footer__logo">
+							<?php the_custom_logo(); ?>
 						</div>
 					</div>
 					<div class="col-md-4 col-lg-3">
@@ -138,15 +138,16 @@
 					<div class="col-md-8 offset-md-0 col-lg-6 col-xl-5 offset-xl-1">
 						<div class="footer__contacts">
 							<div class="footer__contacts-item">
-								<img src="<?php echo bloginfo('template_url');?>/assets/img/icons/svg/phone.svg" alt="телефон" class="footer__contacts-logo">
+								<img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/phone.svg" alt="телефон" class="footer__contacts-logo">
 								<div class="footer__contacts-tel">
-									<a href="<?php the_field('phone_1',2);?>"><?php the_field('phone_1',2);?></a>
-									<a href="<?php the_field('phone_2',2);?>"><?php the_field('phone_2',2);?></a>
+									<a href="tel:+797867834347"><?php the_field('phone_num_1')?></a>
+									<a href="tel:+797867834358"><?php the_field('phone_num_2')?></a>
 								</div>
 							</div>
 							<div class="footer__contacts-item">
-								<img src="<?php echo bloginfo('template_url');?>/assets/img/icons/svg/pointer.svg" alt="указатель" class="footer__contacts-logo">
-								<address><?php the_field('adress',2);?></address>
+								<img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/pointer.svg"  alt="указатель" class="footer__contacts-logo">
+								<address>ул. Василисы Кожиной, 1<br>
+									Москва, Россия, 121096</address>
 							</div>
 						</div>
 					</div>
