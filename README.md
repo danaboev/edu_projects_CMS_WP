@@ -7,5 +7,10 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 - посадка верстки
 - плaгин AFC
 - плагин cyr-to-lat
+- плагин yandex map
+- плагин google map
+- плагин contact form 7
+
+  
 ## project-2 TOPFORUM-CMS_WP
 
