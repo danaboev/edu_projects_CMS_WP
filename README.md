@@ -6,5 +6,6 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 - c нуля создаем тему
 - посадка верстки
 - плaгин AFC
+- плагин cyr-to-lat
 ## project-2 TOPFORUM-CMS_WP
 
