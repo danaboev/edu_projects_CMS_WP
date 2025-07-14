@@ -5,6 +5,10 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 Подробнее описано в проекте Chilhood - readme.md о сделанных работ. 
 - c нуля создаем тему
 - посадка верстки
+  
+ add_action, add_theme_support() - custom_logo, post_thumbnails
+ the_filed(), get_post(),
+  
 - плaгин AFC
 - плагин cyr-to-lat
 - плагин yandex map
