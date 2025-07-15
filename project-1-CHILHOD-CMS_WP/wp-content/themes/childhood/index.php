@@ -270,7 +270,8 @@ get_header();
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div id="map" class="contacts__map">
+						<div  class="contacts__map">
+							<?php echo do_shortcode( '[yamap center="55.738164984877976,37.50722765922547" height="15rem" zoom="16" type="yandex#map" controls="typeSelector;zoomControl"][yaplacemark coord="55.738164984877976,37.50722765922547" icon="islands#blueRailwayIcon" color="#ff751f" name="Placemark"][/yamap]') ?>
 						</div>
 					</div>
 				</div>
