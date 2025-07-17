@@ -28,17 +28,6 @@ get_header();
                             setup_postdata( $post );
 
                 ?>
-                    /* //first method
-                    <div class="toys__item" style="background-image: url(<?php
-                        if (has_post_thumbnail()){
-                            the_post_thumbnail_url();
-                        } else {
-                            echo get_template_directory_uri() . '/assets/img/not-found.jpg';
-                        }
-                        the_post_thumbnail_url();
-                    ?>)">
-                        */
-                        /*second method */
                         <?php
                         $image_url = has_post_thumbnail() ? get_the_post_thumbnail_url() : get_template_directory_uri() . '/assets/img/not-found.jpg';
                         ?>
