@@ -5,18 +5,6 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 Подробнее описано в проекте Chilhood - readme.md о сделанных работ. 
 - c нуля создаем тему
 - посадка верстки
-  
- add_action,
- add_theme_support() 
- custom_logo, 
- post_thumbnails
- 
- the_filed(),
- get_post(), 
- do_shortcode(), 
- wp_nav_menu(),
- add_theme_support(
- 'menus')
 
   # Plugins-Плагины с которыми я работал во время курса
 - плaгин AFC
@@ -27,6 +15,16 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 - плагин yandex map(яндекс.карты)
 - плагин goole maps (уже google maps API стоит денги)
 - плагин Yaint SEO
+
+- add_action,
+- add_theme_support()
+- custom_logo,
+- post_thumbnails
+- the_filed(),
+- the_filed(),
+- do_shortcode(),
+- wp_nav_menu(),
+- add_theme_support('menus')
 
 ## project-2 TOPFORUM-CMS_WP
 
