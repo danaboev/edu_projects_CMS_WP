@@ -15,7 +15,7 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 - плагин yandex map(яндекс.карты)
 - плагин goole maps (уже google maps API стоит денги)
 - плагин Yaint SEO
-
+# function 
 - add_action,
 - add_theme_support()
 - custom_logo,
