@@ -6,9 +6,19 @@ Chilhood - Мир детсва- верстку настраиваем под WP 
 - c нуля создаем тему
 - посадка верстки
   
- add_action, add_theme_support() - custom_logo, post_thumbnails
- the_filed(), get_post(), do_shortcode(), wp_nav_menu(), add_theme_support('menus')
-  
+ add_action,
+ add_theme_support() 
+ custom_logo, 
+ post_thumbnails
+ 
+ the_filed(),
+ get_post(), 
+ do_shortcode(), 
+ wp_nav_menu(),
+ add_theme_support(
+ 'menus')
+
+  # Plugins-Плагины с которыми я работал во время курса
 - плaгин AFC
 - плагин cyr-to-lat
 - плагин yandex map
